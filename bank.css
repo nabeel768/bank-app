@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(241, 239, 239);
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+header {
+  padding-top: 0.1%;
+  background: red;
+}
+
+.header-img-2 {
+  float: left;
+}
+
+.header-img-3 {
+  float: right;
+}
+
+.myAccount {
+  width: 50%;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.line1 {
+  color: red;
+}
+
+.line2 {
+  font-size: 12px;
+  float: left;
+}
+.line3 {
+  padding: 11px;
+}
+
+.accessAccount {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  height: 0px;
+}

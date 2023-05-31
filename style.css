@@ -1,0 +1,71 @@
+.heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  padding-top: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+a {
+  display: block;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  padding-top: 35px;
+}
+
+.submit-button {
+  display: block;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-top: 10px;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  padding-left: 200px;
+}
+
+.password {
+  letter-spacing: 32px;
+  border: 0;
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 50px 3px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 240px;
+  font-size: 30px;
+}
+
+.password:focus {
+  outline: none;
+}
