@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding-top: 100px;
+  background-color: red;
+}
+
+.submit-area {
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  width: 350px;
+}
+
+.deposit {
+  background-color: white;
+  width: 350px;
+}
+
+.withdraw {
+  background-color: white;
+  width: 350px;
+}
+
+.balance {
+  background-color: white;
+  width: 350px;
+}
+
+.status {
+  margin: 0 20px;
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  float: right;
+  width: 150px;
+}

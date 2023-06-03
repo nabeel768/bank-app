@@ -7,11 +7,11 @@ let today = new Date();
 let currentHour = today.getHours();
 
 if (currentHour < 12) {
-  timeOfDay.innerHTML = 'Good Morning';
+  timeOfDay.innerHTML = 'Good Morning, Nabeel';
 } else if (currentHour < 18) {
-  timeOfDay.innerText = 'Good Afternoon';
+  timeOfDay.innerHTML = 'Good Afternoon, Nabeel';
 } else {
-  timeOfDay.innerText = 'Good Evening';
+  timeOfDay.innerHTML = 'Good Evening, Nabeel';
 }
 
 password.addEventListener('onKeyDown', passwordLimit());
@@ -23,7 +23,7 @@ function passwordLimit() {
 function validate() {
   let password = document.querySelector('.password').value;
   submitButton.addEventListener('click', function () {
-    if (password == '78602') {
+    if (password === '12345') {
       (window.location.href = 'bank.html'), false;
     } else {
       document.querySelector('.enter-pin').innerHTML =

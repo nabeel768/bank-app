@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/withdraw-deposit.css" />
+  </head>
+  <body>
+    <div id="account-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <div class="deposit status">
+              <img src="/images/santander-logo.png" width="15px" alt="" />
+              <h5>Deposit</h5>
+              <h2>£ <span id="current-deposit">0</span></h2>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="withdraw status">
+              <img src="/images/santander-logo.png" width="15px" alt="" />
+              <h5>Withdraw</h5>
+              <h2>£ <span id="current-withdraw">0</span></h2>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="balance status">
+              <img src="/images/santander-logo.png" width="15px" alt="" />
+              <h5>Balance</h5>
+              <h2>£ <span id="current-balance"></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="submit-area">
+              <img src="/images/santander-logo.png" width="15px" alt="" />
+              <h4>Deposit Amount</h4>
+              <input id="deposit-amount" type="number" class="form-control" placeholder="Enter deposit amount" /><br />
+              <button id="deposit-btn" class="btn btn-success">Deposit</button>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="submit-area">
+              <img src="/images/santander-logo.png" width="15px" alt="" />
+              <h4>Withdraw Amount</h4>
+              <input id="withdraw-amount" type="text" class="form-control" placeholder="Enter withdraw amount" /><br />
+              <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/withdraw-deposit.js"></script>
+  </body>
+</html>
