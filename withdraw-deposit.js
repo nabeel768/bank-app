@@ -22,6 +22,9 @@ const totalBalance = depositBtn.addEventListener('click', function () {
   let valueAsNumber = parseFloat(depositAmount.value);
   currentBalance.innerHTML = valueAsNumber;
 });
+
+
+
 depositBtn.addEventListener('click', function () {
   let value = depositAmount.value;
   let valueAsNumber = parseFloat(depositAmount.value);
