@@ -4,6 +4,8 @@ let withdrawAmount = document.querySelector('#withdraw-amount');
 let depositAmount = document.querySelector('#deposit-amount');
 let currentBalance = document.querySelector('#current-balance');
 let currentDeposit = document.querySelector('#current-deposit');
+let currentWithdraw = document.querySelector('#current-withdraw')
+
 
 // depositBtn.addEventListener('click', function(){
 // let totalBalance= depositAmount+currentBalanceValue
@@ -17,11 +19,16 @@ let currentDeposit = document.querySelector('#current-deposit');
 //   currentBalance.innerHTML=valueAsNumber
 // });
 
-const totalBalance = depositBtn.addEventListener('click', function () {
+ depositBtn.addEventListener('click', function () {
   let value = depositAmount.value;
   let valueAsNumber = parseFloat(depositAmount.value);
   currentBalance.innerHTML = valueAsNumber;
-});
+  
+
+  });
+
+  
+
 
 
 
@@ -29,4 +36,10 @@ depositBtn.addEventListener('click', function () {
   let value = depositAmount.value;
   let valueAsNumber = parseFloat(depositAmount.value);
   currentDeposit.innerHTML = valueAsNumber;
+});
+
+withdrawBtn.addEventListener('click', function () {
+  let value = depositAmount.value;
+  let valueAsNumber = parseFloat(withdrawAmount.value);
+  currentWithdraw.innerHTML = -valueAsNumber;
 });
